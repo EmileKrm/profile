@@ -1,0 +1,106 @@
+/* Here goes your CSS */
+/* Here goes your CSS */
+
+body, h1, h2, h3{
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-color:#FFF6DD;
+  color:#636363;
+  font-size: 16px;
+  font-weight: 'Helvetica Neue 35 Ultra Light';
+}
+
+h1 {
+  color:#32936F;
+  font-size: 24px;
+  font-weight: 'Helvetica Neue 55 Roman';
+}
+
+h2 {
+  color:#1E334C;
+  font-size: 18px;
+  font-weight: 'Helvetica Neue 45 Light';
+}
+
+h3 {
+  color:#373737;
+  font-size: 16px;
+  font-weight: 'Helvetica Neue 35 Light';
+}
+
+a {
+  color:#C1C1C1;
+  text-decoration: none;
+}
+
+a:hover{
+  color:#32936F;
+}
+
+
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 20px;
+  padding-left: 0px;
+  color: #636363
+}
+
+.list-inline i {
+  font-size: 28px;
+}
+
+div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container {
+  width: 500px;
+  margin: 30px auto;
+}
+
+.card{
+  background: white;                          /* White background */
+  padding: 30px;                              /* Internal space */
+  border-radius: 4px;                         /* Small radius */
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.text-center{
+  text-align: center;
+
+}
+
+#img-profile {
+    width: 200px;
+    height: 200px;
+    border: 3px solid #cccccc;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-green{
+  background: #32936F;
+  border-radius: 4px;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.btn-green:hover{
+  background: #1B835B;
+  color: white;
+}
+
+.list-inline {
+  padding-left: 0;
+}
